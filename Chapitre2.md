@@ -56,9 +56,13 @@
 - **Définition** : Regrouper les données et les méthodes dans une même entité (objet). Les attributs sont accessibles via des méthodes (getters/setters).
 - **Propriétés** : Simplifient l'encapsulation.
   ```csharp
-  public string Nom {
-      get { return nom; }
-      set { nom = value; }
+  public string getName()
+  {
+      return name;
+  }
+  public void setName(string Name)
+  {
+      this.name = Name;
   }
   ```
 
